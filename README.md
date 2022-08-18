@@ -1,5 +1,3 @@
-
-
 # Project Summary
 
 This is an educational project for learning how to provision and
@@ -57,9 +55,9 @@ When the time comes to stop the cluster, run:
 # Repository Contents
 
 - README.md
-    - you're looking at it
+    - you're looking at it.
 - create_tables.py
-    - run on the commandline to drop and create tables
+    - run on the commandline to drop and create schemas/tables.
 - etl.py
     - run on the commandline to move data from s3 into staging tables
       on Redshift and then process staging data into the desired star
